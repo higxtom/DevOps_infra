@@ -1,2 +1,5 @@
+# feature-A
+# fix-B
+# feature-C
 */1 * * * * /usr/local/bin/rake --trace -f /var/lib/redmine/Rakefile redmine:email:receive_imap RAILS_ENV="production" host=imap.gmail.com port=993 ssl=1 project=fatal_error username=hxtadm@gmail.com password=tomo0516 unknown_user=accept
 
